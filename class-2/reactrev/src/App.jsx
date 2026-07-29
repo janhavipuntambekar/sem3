@@ -51,7 +51,6 @@ const App = () => {
 
   return (
     <>
-    <h1>apiDATA</h1>
 
     {apidata.map((item)=>(
       <div key={item.id}>
