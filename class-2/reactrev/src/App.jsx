@@ -1,7 +1,7 @@
 // import React, { useEffect, useState } from 'react'
 
 // const App = () => {
-//   let [count, setCount]=useState(2007);
+//   let [count, setCount]=useState(0);
 //   let [city, setCity]=useState("Pune");
 
 //   useEffect(()=>{
@@ -21,7 +21,7 @@
 //       <h1>{count}</h1>
 //       <h1>{city}</h1>
 //       <button onClick={()=>{setCount(count-1)}}>-</button>
-//       <button onClick={()=>{setCount(2007)}}>reset</button>
+//       <button onClick={()=>{setCount(0)}}>reset</button>
 //       <button onClick={()=>{setCount(count+1)}}>+</button>
 //       <button onClick={()=>{setCity("Vadodara")}}>change city</button>
 //     </div>
